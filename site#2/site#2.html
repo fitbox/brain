@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html> <!--указываем версию используемой версии html-->
+<html>
+	<head> <!--начало блока head-->
+		<meta charset="utf-8"> <!--указываем кодировку-->
+		<title>Домашнее задание по таблицам и формам запросов</title> <!--указываем title (заголовок сайта)-->
+	</head> <!--конец блока head-->
+<body>
+
+	<div id="head_site" name="head_site"> <!--задаем имя "head"_site" верхнему блоку-->
+		<H1>На этом сайте мы будем создавать таблицы и формы запросов</H1> <!--ставим заголовок на сайт-->
+	</div> <!--конец блока шапки-->
+	<hr /> <!--рисует линию между шапкой и блоком с таблицей-->
+	<div id="deskription_table" name="deskription_table">
+		<p>Попробуем нарисовать таблицу с обьединенными в разных частях ячейками</p>
+	</div>
+	<table border="1"> <!--начало таблицы-->
+		<tr> <!--третья строка-->
+			<th>1 заголовок</th>
+			<th>2 заголовок</th>
+			<th>3 заголовок</th>
+			<th>4 заголовок</th>
+		</tr>
+		<tr> <!--первая строка-->
+			<td>1 столбик</td>
+			<td colspan="2">2-3 столбик</td>
+			<td>4 столбик</td>
+		</tr>
+		<tr> <!--вторая строка-->
+			<td colspan="3">1-2-3 столбик</td>
+			<td>4 столбик</td>
+		</tr>
+		<tr> <!--третья строка-->
+			<td>1 столбик</td>
+			<td>2 столбик</td>
+			<td colspan="2">3-4 столбик</td>
+		</tr>
+		<tr> <!--четвертая строка-->
+			<td>1 столбик</td>
+			<td colspan="3">2-3-4 столбик</td>
+		</tr>		
+	</table>
+	<hr /> <!--рисует линию между блоком с таблицей и формами-->
+	<div id="deskription_form" name="deskription_form">
+		<p>Попробуем вывести формы запросов с разными параметрами</p>
+	</div>
+		<form action="data.html" method="GET"> <!--начало формы для ввода ФИО и адреса-->
+		<label>ФИО:</label><input id="FIO" name="FIO" type="text"><br /> <!--поле ввода ФИО-->
+		<label>email:</label><input id="email" name="FIO" type="text"><br /> <!--поле ввода адреса-->
+		<label>password:</label><input id="password" name="password" type="password"><br /> <!--поле ввода пароля-->		
+		<hr />
+		<input type="radio" name="gender" value="MAN" checked>Мужчина<br> <!--варианты ответа-->
+		<input type="radio" name="gender" value="WOM">Женщина<br>
+		<input type="radio" name="gender" value="GOM">Гомосяо<br>
+		<hr />
+		<input type="checkbox" name="com" value="tel">Телефон<br> <!--варианты ответа-->
+		<input type="checkbox" name="com" value="email">Email<br>
+		<input type="checkbox" name="com" value="viber">Viber<br>		
+		<input type="checkbox" name="com" value="skype">Skype<br>				
+		<hr />		
+		<label>Загрузите свое фото:</label><input type="file" name="image" value="image"><br>	
+		<hr />
+		<input type="submit">
+	</form>
+	<hr />	
+	<p>Вставка IFRAME другого сайта</p>
+	<iframe src="http://unian.net" width="1000px" height="300px"></iframe> <!--вставляем другой сайт-->
+	
+	
+		
+	
+</body>
