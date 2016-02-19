@@ -1,0 +1,35 @@
+	.leftimg { /* Параметры группы leftimg */
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+	.rightimg { /* Параметры группы rightimg */
+    float:right; /* Выравнивание по правому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   } 
+	.letter {
+    color: red; /* Цвет символа */
+    font-size: 200%; /* Размер шрифта */
+   }
+	.standart { /* Параметры группы standart */
+    border: 4px double black; /* Параметры границы */
+    background: #fffdfd; /* Цвет фона */
+    padding: 1px; /* Поля вокруг текста */
+	color: #1c1313; /* Цвет текста */
+   }
+	.red { /* Параметры группы red */
+    border: 1px solid black; /* Параметры границы */
+    background: #fbb9b9; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+	color: #6a2626; /* Цвет текста */
+	cursor: crosshair; /* курсор */
+   }   
+	.blue { /* Параметры группы blue */
+    border: 1px solid black; /* Параметры границы */
+    background: #cec5f8; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+	color: #302565; /* Цвет текста */
+	cursor: help; /* курсор */
+   }   
+   
+   
+   
